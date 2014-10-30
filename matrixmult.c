@@ -1,8 +1,9 @@
 /*
-	Program #3
-	Programmer: Viet Truong
-	Account: masc0859
-	Date: 10/08/14
+	matrixmult.c
+
+    Matrix Multiplication using just pointer notation.
+    Viet Truong
+    October 10/08/2014
 */
 
 #include <stdio.h>
@@ -82,7 +83,6 @@ int main(int argc, char **argv)
         printf("Enter a file to be scanned.\n");
         exit(0);
     }
-    printf("Program #3, masc0859, Viet Truong\n");
     
     int *A, *B, *C;
     int m, n, p;
